@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Video path
-path1 = "Test1.webm"
+path1 = "/home/josten/Desktop/Cleveron/Rositen/OpenCvRoisten/Test1.webm"
 cap = cv2.VideoCapture(path1)
 
 if not cap.isOpened():
